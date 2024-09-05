@@ -1,0 +1,359 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.nav {
+    background: linear-gradient(#597bff, #1ca3d4);
+    width: 80%;
+    height: 60px;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+
+.nav .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .row .left img {
+    width: 42px;
+    height: 41px;
+}
+
+
+
+.nav .row .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .row .right ul li {
+    list-style: none;
+    margin: auto 6px;
+    padding: 10px 15px;
+}
+
+.nav .row .right ul a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.nav .row .right ul a:hover {
+    text-decoration: underline;
+}
+
+
+.container-1 {
+    background: #ebe7e7;
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    background: url('https://medicahospitals.in/wp-content/uploads/2022/03/Request-an-appointment.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-2 {
+    background: #ebe7e7;
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    background: url('https://medicahospitals.in/wp-content/uploads/2023/12/cath-lab-eps.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-3 {
+    width: 80%;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.container-3 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.container-3 .card #All-card {
+    border-radius: 15px;
+    width: 44%;
+    height: 293px;
+    margin-top: 0px;
+    margin: 20px 20px;
+    transition: 0.5s;
+}
+
+.container-3 .card #All-card:hover {
+    transform: scale(1.1);
+}
+
+
+.container-3 .card .card-item1 {
+    background-image: url('https://www.kailashhealthcare.com/Content/images/thumb/Critical-Care.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-3 .card .card-item2 {
+    background-image: url('https://niu.edu.in/wp-content/uploads/2023/03/DSC02941_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-3 .card .card-item3 {
+    background-image: url('https://srinivasgroup.com/img/hospital_services/Ophthalmology.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-3 .card .card-item4 {
+    background-image: url('https://srinivasgroup.com/img/hospital_services/Radiology-Services.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+/* Doctor Section */
+
+main {
+    width: 80%;
+    height: 320px;
+    margin-top: 20px;
+}
+
+main .doctor .img-doctor {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-image: url('https://amjadhospitals.com/wp-content/uploads/2021/07/our-services-apna-hospital-banner-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Appointment */
+
+.appointment{
+    width: 50%;
+    height: 340px;
+    margin-top: 20px;
+}
+
+.appointment h1{
+    text-align: center;
+}
+
+
+.appointment-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: #1ca3d4;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    display: inline-block;
+    transition: all ease 0.5s;
+    background: #1ca3d4;
+}
+
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #7bc9e6;
+}
+
+
+/* Machinery Section */
+section h1{
+    text-align: center;
+}
+section{ 
+    margin-top: 17%;
+    width: 80%;
+    height: 100%;
+}
+
+section .machines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+section .machines #All-machines{
+    border-radius: 15px;
+    width: 40%;
+    height: 293px;
+    margin-top: 0px;
+    margin: 20px 20px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .machines .machines-item1{
+    background-image: url('https://lh5.googleusercontent.com/HiTeuxeQeI7RN1eerliZKTa1ZOZXwgprEtu-5XvgMxN5r9qiYTG-pyRsofN-qS_H_ZkEZkGbOvRq56J4wPjGT_LGzDPdgQYTZlfxWRQmr0LBIPa7b5bzS1CcsWQ8RKAcrtgOgn5I');
+}
+
+section .machines .machines-item2{
+    background-image: url('https://lh5.googleusercontent.com/DkQaAZNj5n6sAdCWvccQvucFKwOpx8GpxwTuD6supkXpFfbUkpEkoEHVWJRAUz2Fe1GdH2aLTkOdgXvcRoCG6YGi0XA9LsSTSYGdVWWCygaK2M4YzxGfd5d7fKZBW114_y_WrmFf');
+}
+
+section .machines .machines-item3{
+    background-image: url('https://gumbomedical.com/wp-content/uploads/life-saving-hospital-equipment.jpg');
+}
+
+section .machines .machines-item4{
+    background-image: url('https://altosengineers.com/wp-content/uploads/2023/01/5-Keys-to-Proper-Setup-of-Medical-Equipment-1.jpg');
+}
+
+section .machines .machines-item5{
+    background-image: url('https://poonawallafincorp.com/pfca/assets/og_image/1650611026.jpg');
+}
+
+section .machines .machines-item6{
+    background-image: url('https://img.freepik.com/premium-photo/3d-rendering-medical-ventilator-machine-hospital_493806-557.jpg');
+}
+
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+    width: 80%;
+    height: 350px;
+    background: #1ca3d4;
+}
+
+footer .foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin: 0 50px;
+}
+
+.foot .col-1{
+    flex-basis: 40%;
+    padding: 0 70px;
+}
+
+.foot .col-1 h3{
+    font-size: 2.5rem;
+}
+
+.foot .col-1 h3 p{
+    font-size: 2rem;
+}
+
+.foot .col-2{
+    flex-basis: 20%;
+}
+
+.foot .col-2 h4{
+    font-size: 1.5rem;
+}
+
+.foot .col-2 li{
+    list-style: none;
+    margin-bottom: 15px ;
+}
+
+.foot .col-2 li a{
+    font-size: 1rem;
+    color: #262626;
+}
+
+.foot .col-3{
+    flex-basis: 40%;
+}
+
+.foot .col-3 h4{
+    font-size: 1.5rem;
+}
+
+.foot .col-3 #fav{
+    font-size: 1rem;
+    margin: 15px;
+}
+
+.foot .col-3 span{
+    font-size: 1rem;
+}
+
